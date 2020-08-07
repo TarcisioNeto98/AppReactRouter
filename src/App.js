@@ -1,6 +1,6 @@
 import React from 'react';
 import Home from './Paginas/Home';
-import Sobre from './Paginas/Sobre'
+import Sobre from './Paginas/Sobre';
 
 import {
   BrowserRouter,
@@ -19,16 +19,16 @@ function App() {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/sobre">Sobre</Link>
+              <Link to="/Sobre">Sobre</Link>
             </li>
           </ul>
         </nav>
         <hr />
         <Switch>
-          <Route path="/">
+          <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/sobre">
+          <Route exact path="/Sobre">
             <Sobre />
           </Route>
         </Switch>

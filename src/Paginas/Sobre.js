@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Sobre(){
-    return <h1>Sobre</h1>;
+    return <h2>Sobre</h2>;
 }
 
 export default Sobre;
